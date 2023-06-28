@@ -1,0 +1,536 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#topocontato {
+  background-color: #5D5650;
+  color: #ffffff;
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+}
+
+nav {
+  float: right;
+  width: 100%;
+  height: 80px;
+  font-size: 17px;
+  line-height: 80px;
+  text-align: right;
+}
+
+nav a {
+  margin-right: 30px;
+  color: #858585;
+}
+
+nav button {
+  background: #B2B74A;
+  border: 1px solid #B2B74A;
+  width: 140px;
+  height: 50px;
+  font-size: 17px;
+  float: right;
+  margin-right: 80px;
+  margin-top: 14px;
+  color: #ffffff;
+}
+
+.navholder {
+  height: 80px;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  font-family: 'BenchNine', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner p {
+  margin: 0px;
+}
+
+.banner button {
+  background: #756C66;
+  border: 1px solid #FFFFFF;
+  width: 300px;
+  height: 50px;
+  margin-top: 200px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.divisoresquerdo {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.divisordireito {
+  float: left;
+  width: 50%;
+  padding-right: 100px;
+}
+
+.titulo {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 80px;
+  margin: 0px;
+  color: #413C38;
+  text-align: center;
+}
+
+.texto {
+  color: #858585;
+  line-height: 30px;
+}
+
+.containerdivisores {
+  width: 100%;
+  margin-top: 50px;
+  height: 400px;
+}
+
+.divisordireito button {
+  background-color: #B2B74A;
+  color: #ffffff;
+  border: 1px solid #B2B74A;
+  width: 300px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 140px;
+}
+
+.divisoresquerdo2 {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.divisordireito2 {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerimagens {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0px auto;
+  height: 150px;
+  justify-content: center;
+}
+
+.containerservicos {
+  background-color: #262B2B;
+  color: #ffffff;
+  height: 700px;
+  padding-top: 20px;
+}
+
+.cardservico {
+  height: 350px;
+  width: 250px;
+  margin: 20px;
+}
+
+.cardservico img {
+  width: 100%;
+}
+
+.containercards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.descricaocard {
+  font-family: 'BenchNine', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 34px;
+}
+
+.containerservicos button {
+  background-color: #B2B74A;
+  color: #ffffff;
+  border: 1px solid #B2B74A;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.containerbutton {
+  margin: 0px auto;
+  width: 300px;
+  height: auto;
+  margin-top: 50px;
+}
+
+#nossocatalogo {
+  background: rgba(38, 43, 43, 0.8);
+  background-image: url('images/CATALOGO_BACKGROUND\ 1.svg');
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  padding-top: 50px;
+}
+
+#confiracatalogo {
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.botaocinza {
+  background-color: #5D5650;
+  color: #ffffff;
+  border: 1px solid #FFFFFF;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.containercontato {
+  background-color: #5D5650;
+  padding-bottom: 50px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.boxbrancocontato {
+  width: 80%;
+  padding-bottom: 160px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding-top: 30px;
+  overflow: auto;
+}
+
+.boxcontatoesquerdo {
+  float: left;
+  width: 60%;
+  padding-left: 40px;
+}
+
+.tablecontato {
+  width: 100%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.tablecontato tr td {
+  padding: 20px;
+}
+
+.tablecontato input,
+textarea {
+  background-color: #B2B74A;
+  color: #ffffff;
+  font-family: 'BenchNine', sans-serif;
+  text-align: left;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  vertical-align: top;
+  border: none;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+#mensagem {
+  height: 180px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tablecontato button {
+  background-color: #ffffff;
+  width: 300px;
+  height: 90px;
+  margin-right: 0px;
+  border-color: #B2B74A;
+  border: 1px;
+  border-style: solid;
+  color: #B2B74A;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+}
+
+.boxcontatodireito {
+  float: left;
+  width: 40%;
+  padding-left: 100px;
+}
+
+.separadorcontato {
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+.divfooter {
+  background-color: #5D5650;
+  height: 500px;
+  width: 100%;
+}
+
+footer {
+  background-color: #5D5650;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.banner2 {
+  width: 100%;
+  height: 500px;
+  background-image: url(images/capaservicos.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 60px;
+  color: #ffffff;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 100px;
+}
+
+.banner2 p {
+  margin: 0px;
+}
+
+.banner2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nossosservicos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.nossosservicoscard {
+  width: 250px;
+  margin: 20px;
+  height: 400px;
+}
+
+.circuloverde {
+  width: 250px;
+  height: 250px;
+}
+
+.descricaoverde {
+  font-family: 'BenchNine', sans-serif;
+  text-align: center;
+  color: #413C38;
+  font-size: 34px;
+}
+
+/* Não alterar o código acima */
+
+.banner3 {
+  width: 100%;
+  height: 500px;
+  background-image: url(images/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 60px;
+  color: #ffffff;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 100px;
+}
+
+.banner3 p {
+  margin: 0px;
+}
+
+.banner3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.empresaesquerdo1 {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.empresadireito1 {
+  float: left;
+  width: 50%;
+  padding-right: 100px;
+}
+
+.empresaesquerdo2 {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.empresadireito2 {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoempresa {
+  color: #858585;
+  line-height: 40px;
+}
+
+.fundo {
+  background-image: url(images/fundo1.jpg);
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.containerfundo {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.cxlogin {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  height: 630px;
+}
+
+.containerlog {
+  background-color: blue;
+}
+
+.botaocontato {
+  background: #413C38;
+  border: 1px solid #5D5650;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'BenchNine';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  height: 45px;
+}
+
+#input-nome {
+  width: 90%;
+  background: #FFFFFF;
+  border: 1px solid #5D5650;
+  margin-bottom: 20px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo1 {
+  font-family: 'BenchNine';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  color: #413C38;
+  text-align: center;
+}
+
+.titulo2 {
+  font-family: 'BenchNine';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #413C38;
+  width: 100%;
+  text-align: center;
+}
+
+/* Não alterar o código acima */
+.container img {
+  width: 31%;
+  margin-left: 2%;
+  display: inline;
+}
+
+.container2 {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.container2 img {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 25%;
+  margin-bottom: 1%;
+}
+
+#containerinp {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#containerinput {
+  justify-content: center;
+  width: 90%;
+}
+
+#containerinput input {
+  width: 100%;
+  padding-left: 12px;
+}
+
+#containerinput ::placeholder {
+  color: #B2B74A;
+  font-family: BenchNine;
+  font-size: 24px;
+}
